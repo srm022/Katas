@@ -1,4 +1,4 @@
-﻿using Katas.Utils;
+﻿using Utils;
 
 namespace Isograms
 {

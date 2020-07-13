@@ -1,5 +1,4 @@
-﻿using System;
-using Katas.Utils;
+﻿using Utils;
 
 namespace JadenCasingStrings
 {

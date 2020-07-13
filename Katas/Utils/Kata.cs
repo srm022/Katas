@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Katas.Utils
+namespace Utils
 {
     public static class Kata
     {
