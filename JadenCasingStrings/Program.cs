@@ -1,4 +1,5 @@
 ﻿using System;
+using Katas.Utils;
 
 namespace JadenCasingStrings
 {
@@ -7,9 +8,7 @@ namespace JadenCasingStrings
         static void Main(string[] args)
         {
             var tweet = "aaa Bbbb ccc ddd      sads             a  fgff 2  s ";
-            var jadenCased = tweet.ToJadenCase();
-            Console.WriteLine(jadenCased);
-            Console.ReadKey();
+            Kata.Run(() => tweet.ToJadenCase());
         }
     }
 }
